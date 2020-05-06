@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.w2a.ZohoExtended.testCases.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.w2a.ZohoExtended.testCases.LoginTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29468" started-at="2020-05-06T07:43:17Z" finished-at="2020-05-06T07:43:46Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="29468" started-at="2020-05-06T07:43:17Z" finished-at="2020-05-06T07:43:46Z">
+      <class name="com.w2a.ZohoExtended.testCases.LoginTest">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.w2a.ZohoExtended.testCases.LoginTest@43195e57]" name="setUpFramework" is-config="true" duration-ms="9" started-at="2020-05-06T13:13:17Z" finished-at="2020-05-06T13:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.ZohoExtended.testCases.LoginTest@43195e57]" name="loginTest" duration-ms="27943" started-at="2020-05-06T13:13:17Z" data-provider="masterDP" finished-at="2020-05-06T13:13:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, browser=firefox, password=Lav123456@, userName=Rajput.lavendra@Yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.ZohoExtended.testCases.LoginTest@43195e57]" name="loginTest" duration-ms="28783" started-at="2020-05-06T13:13:17Z" data-provider="masterDP" finished-at="2020-05-06T13:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, browser=chrome, password=Lav123456@, userName=Lavendra.rajputc1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.ZohoExtended.testCases.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
